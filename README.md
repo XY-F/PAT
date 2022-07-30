@@ -1,2 +1,3 @@
 # PAT
-PAT Practice python
+记录 PAT 甲级练习题的个人解法，分享解题思路
+主要用python语言实现
