@@ -1,4 +1,7 @@
 '''
+
+题目
+
 Given a non-negative integer N, your task is to compute the sum of all the digits of N, and output every digit of the sum in English.
 Input Specification:
 
@@ -19,6 +22,7 @@ one five
 
 这是比较简单的一题，主要用到的技巧是用str()直接讲整型转换成字符，然后顺序地读取字符并进行转换。
 转换后的字符先是放在一个list中，然后用 ' '.join(list) 进行连接，最后输入结果
+
 '''
 
 nums = input()
