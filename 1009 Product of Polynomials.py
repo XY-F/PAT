@@ -1,3 +1,5 @@
+‘’‘
+
 题目
 
 This time, you are supposed to find A×B where A and B are two polynomials.
@@ -32,6 +34,8 @@ Sample Output:
 
 在遍历 dict 的时候注意判断 系数 是否为 零，我一开始把系数为零的判断只写在了生成 dict 的过程中，是不对/不完全的，因为项之间两两相乘之后系数可能会抵消。
 如果不做这个判断，见无法通过 测试点 0 。
+
+’‘’
 
 n1 = list(map(float, input().split()))[1:]
 n2 = list(map(float, input().split()))[1:]
