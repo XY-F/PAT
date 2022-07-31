@@ -66,7 +66,6 @@ def decimal_digit(num, radix):
 def find_radix(n1, n2, n1_radix):
     # 默认 n1 是十进制数
     left, right = 0, n1 + 1
-    res = -1
     while left <= right:
         mid = (left + right) // 2
         temp = decimal_digit(n2, mid)
