@@ -1,4 +1,7 @@
 '''
+
+题目
+
 At the beginning of every day, the first person who signs in the computer room will unlock the door, and the last one who signs out will lock the door. Given the records of signing in's and out's, you are supposed to find the ones who have unlocked and locked the door on that day.
 Input Specification:
 
@@ -44,3 +47,5 @@ for _ in range(n):
         end = sign_out
         last_out = idx
 print(first_in, last_out)
+
+
