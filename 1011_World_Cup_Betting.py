@@ -30,6 +30,10 @@ Sample Output:
 
 T T W 39.31
 
+解题思路
+
+运用 python 内置的 dict 类型，建立 float值 到 str值 的映射，这样求出最大值后，可以直接用最大值得到对应的下注目标。
+
 '''
 
 w1, t1, l1 = list(map(float, input().split()))
